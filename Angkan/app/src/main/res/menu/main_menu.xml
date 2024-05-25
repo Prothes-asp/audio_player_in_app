@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/youTubeId"
+        android:title="YouTube Song"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/settingId"
+        android:title="Setting"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/privacyId"
+        android:title="Privacy"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/contactId"
+        android:title="Contact"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/searchId"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:id="@+id/shareId"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@drawable/share"
+        />
+
+</menu>

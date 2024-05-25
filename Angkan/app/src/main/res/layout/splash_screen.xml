@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:orientation="vertical"
+    >
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:lottie_rawRes="@raw/topwavy"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/barclr"
+        android:typeface="monospace"
+        android:layout_marginTop="20dp"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:lottie_rawRes="@raw/wavy2"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:scaleType="fitXY"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/barcross"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:lottie_rawRes="@raw/bottomwavy"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>

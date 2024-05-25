@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Angkan Barai</string>
+    <string name="song_title1">This is song Title</string>
+    <string name="song_description1">This is song Description</string>
+
+
+    <string-array name="song_title">
+        <item>Dil Laga Liya Maine</item>
+        <item>Aaye Ho Meri Zindagi</item>
+        <item>Aye Mere Humsafar</item>
+        <item>Tum Se Achcha Kaun</item>
+        <item>Chanda Sitare Bindiya</item>
+        <item>Chori Chori Dil Tera</item>
+        <item>Cherodini Tumi je</item>
+        <item>Pyar Ka Tohfa Tera</item>
+        <item>Maine Pyar Tumhi Se</item>
+        <item>Mujhe Neend Na Aaye</item>
+        <item>Teri Chunnariya Dil</item>
+    </string-array>
+
+    <string-array name="song_des">
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+        <item>Instrumental music</item>
+    </string-array>
+
+
+    <string name="link1">https://www.youtube.com/embed/dL-6dMW6EjM</string>
+    <string name="link2">https://www.youtube.com/embed/c0pHrDABLOg</string>
+    <string name="link3">https://www.youtube.com/embed/00XVp1A_cbQ</string>
+    <string name="link4">https://www.youtube.com/embed/YZpfZrZh36M</string>
+    <string name="link5">https://www.youtube.com/embed/kl5tJeS1Ns8</string>
+    <string name="link6">https://www.youtube.com/embed/HH_e6iSOl-Q</string>
+    <string name="link7">https://www.youtube.com/embed/aCU4RDhcnvg</string>
+    <string name="link8">https://www.youtube.com/embed/TyjJTNIJ_6E</string>
+    <string name="link9">https://www.youtube.com/embed/BtznGEkjF6A</string>
+    <string name="link10">https://www.youtube.com/embed/pEPnmtxdsew</string>
+    <string name="link11">https://www.youtube.com/embed/Y2Fk3ZAjggk</string>
+</resources>
